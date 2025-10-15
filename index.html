@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Achievers Arena — Study Cabins on Rent</title>
+  <style>
+    body{font-family:Inter,Arial,Helvetica,sans-serif;background:#f5f7fb;margin:0;color:#222}
+    .wrap{max-width:980px;margin:40px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    h1{margin:0;font-size:28px}
+    .logo{font-weight:700;color:#0b5cff}
+    .buttons a{margin-left:10px;text-decoration:none;padding:10px 16px;border-radius:8px;background:#0b5cff;color:#fff}
+    .hero{background:#fff;padding:28px;border-radius:12px;box-shadow:0 8px 30px rgba(15,25,50,.06);margin-top:18px}
+    .cta{margin-top:18px}
+    .cta a{display:inline-block;margin-right:10px;padding:12px 18px;border-radius:8px;text-decoration:none}
+    .primary{background:#0b5cff;color:#fff}
+    .secondary{background:#2d9cdb;color:#fff}
+    section{margin-top:22px}
+    h2{margin:0 0 8px;font-size:20px}
+    p{margin:0 0 10px;color:#444;line-height:1.5}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    footer{margin-top:26px;color:#777;font-size:13px}
+    .meta{color:#666;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <div class="logo">Achievers Arena</div>
+        <div class="meta">Comfortable study cabins on very reasonable monthly rent</div>
+      </div>
+      <div class="buttons">
+        <!-- These links include a query param to tell your main site which button was clicked -->
+        <a href="https://yourwebsite.com/login?user=tenant" target="_blank" rel="noopener">Guest (Tenant) Login</a>
+        <a href="https://yourwebsite.com/login?user=owner" target="_blank" rel="noopener" style="background:#111;color:#fff">Owner Login</a>
+      </div>
+    </header>
+
+    <div class="hero" id="home">
+      <h1>Welcome to Achievers Arena</h1>
+      <p>Achievers Arena provides comfortable, well-furnished study cabins and cubicles at affordable monthly rents. Our cabins are ideal for students, professionals, and exam aspirants who need a quiet, focused space.</p>
+      <div class="cta">
+        <a class="primary" href="https://yourwebsite.com/book" target="_blank" rel="noopener">Book a Cabin</a>
+        <a class="secondary" href="mailto:info@yourwebsite.com">Contact Us</a>
+      </div>
+    </div>
+
+    <section id="about">
+      <h2>About Achievers Arena</h2>
+      <p>
+        <!-- EDITABLE: Replace this paragraph later via GitHub edit -->
+        Achievers Arena was created to provide a peaceful, secure and hygienic environment for focused study. We offer single and shared cabins, flexible plans, 24/7 access at select locations, and friendly support to help you perform your best.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div>
+          <h3>Private Cabins</h3>
+          <p>Fully equipped cabins with table, chair, lighting, and power socket—ideal for individual study.</p>
+        </div>
+        <div>
+          <h3>Shared Study Hubs</h3>
+          <p>Cost-effective shared spaces with designated desks and lockers for long-term users.</p>
+        </div>
+        <div>
+          <h3>Flexible Plans</h3>
+          <p>Daily, weekly, and monthly plans to suit short-term and long-term needs. Easy online booking.</p>
+        </div>
+        <div>
+          <h3>Support & Safety</h3>
+          <p>24/7 assistance, CCTV, and secure entry to ensure a safe and uninterrupted study environment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2>Pricing (Sample)</h2>
+      <p>Monthly starts from <strong>₹X,XXX</strong>. Contact us for exact pricing per cabin type and location.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+      <p>Address: Your main branch address here</p>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> Achievers Arena</div>
+      <div style="margin-top:6px" class="meta">Made with GitHub Pages • Edit this page via the repository to update content anytime</div>
+    </footer>
+  </div>
+
+  <script>
+    // just a small script to set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
